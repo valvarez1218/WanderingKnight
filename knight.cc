@@ -10,6 +10,7 @@ std::pair<int, int> toPair(std::string coord);
 // runs the algorithm
 int wander(std::pair<int, int> startingSquare);
 
+// The number of trials that will be run from the specified square
 int g_Trials = 100000;
 
 // main function will take a chess square as input, and run algorithm
